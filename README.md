@@ -1,4 +1,7 @@
-# I. Introduction
+
+# Demystifying HTML Tables: A Comprehensive Guide for Web Developers
+
+## I. Introduction
 
 In today's online world, showing information on websites is really important. Think about websites that compare products, display financial numbers, or list school schedules. Without a way to neatly organize this information, things can get messy, and people might have a hard time understanding it. That's where the HTML `<table>` tag comes in.
 
@@ -7,7 +10,7 @@ The `<table>` tag is like a special tool that helps us organize information neat
 In this guide, we're going to learn all about the `<table>` tag. We'll start with the basics, and by the end, you'll be able to use it to make your web content organized and easy to understand. Let's get started and explore how the HTML `<table>` tag can help you make your information clear and neat on the web.
 
 
-# II. Basics of the `<table>` Tag
+## II. Basics of the `<table>` Tag
 
 The HTML `<table>` tag is the foundation for creating organized data displays on your website. Here, we'll cover the essentials:
 
@@ -42,7 +45,7 @@ The HTML `<table>` tag is the foundation for creating organized data displays on
 - By now, you might be curious about terms like <tr>, <td>, and other HTML elements you've seen in this basic table code. 😕 Don't worry; we'll explore each of these elements in great 
   detail in our upcoming sections. This is just the starting point—a sneak peek into the world of HTML tables. To dive deeper into how these elements work together and create fantastic data displays, make sure to stay with us on this journey and subscribe to our blog. We've got more to share! 🚀😊
 
-  # III. Table Elements
+  ## III. Table Elements
 
 In this section, we will explore the essential elements related to creating tables:
 
@@ -133,7 +136,7 @@ Explanation: The <td> tag is for putting your data in the table. In our example,
 Explanation: The <caption> tag gives your table a title. In our example, the table is about monthly expenses, and the caption says exactly that.
 
 
-# IV. Table Attributes
+## IV. Table Attributes
 
 In this section, we will discuss common attributes used with the `<table>` tag and provide code examples to illustrate their usage.
 
@@ -254,7 +257,7 @@ Explanation: In the example, setting width="300" and height="200" defines the wi
 ## **Please note that the CSS included in all example is intended solely for the purpose of differentiating the table's based on attributes . It is not required for the basic functionality of the code.So I have not included the css in code examples.**
 
 
-# V. Creating Complex Tables
+## V. Creating Complex Tables
 
 In this section, we will explore advanced table structures, including merged cells, custom styling, and the use of `<colgroup>` and `<col>` for column-related settings. Complex tables play a crucial role in web design, allowing you to present data more effectively and create visually appealing layouts.
 
