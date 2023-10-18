@@ -504,5 +504,5 @@ You can find us on:
 - Email us at [omjaju03@gmail.com](mailto:omjaju03@gmail.com) for direct inquiries or collaborations. 📧
 - Visit our blog on [Hashnode](https://omjaju.hashnode.dev/) for more web development articles and insights. 📚
 
-Your support and engagement mean a lot to us. Thank you for being a part of our web development community! 🙌
+Your support and engagement mean a lot to me. Thank you for reading till the end! 🙌
 
