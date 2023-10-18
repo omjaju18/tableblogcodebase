@@ -1,7 +1,38 @@
 
 # Demystifying HTML Tables: A Comprehensive Guide for Web Developers
 
-## I. Introduction
+# Table of Contents
+
+1. [Introduction](#i-introduction)
+2. [Basics of the `<table>` Tag](#ii-basics-of-the-table-tag)
+3. [Table Elements](#iii-table-elements)
+   - `<tr>` (Table Row)
+   - `<th>` (Table Header)
+   - `<td>` (Table Data)
+   - `<caption>`
+4. [Table Attributes](#iv-table-attributes)
+   - `border` Attribute
+   - `cellspacing` Attribute
+   - `cellpadding` Attribute
+   - `align` Attribute
+   - `width` and `height` Attributes
+5. [Creating Complex Tables](#v-creating-complex-tables)
+   - Exploring Advanced Table Structures
+   - Merging Cells
+   - Working with `<colgroup>` and `<col>`
+6. [Best Practices](#vi-best-practices)
+   - Efficient and Accessible Tables
+   - Well-Structured Tables
+   - Alternatives to Tables
+7. [Real Life Example](#vii-real-life-example)
+   - Class Schedule Table
+8. [Conclusion](#viii-conclusion)
+9. [Additional Resources](#ix-additional-resources)
+10. [Connect With Us!](#x-connect-with-us)
+
+
+## I. Introduction <a name="i-introduction"></a>
+
 
 In today's online world, showing information on websites is really important. Think about websites that compare products, display financial numbers, or list school schedules. Without a way to neatly organize this information, things can get messy, and people might have a hard time understanding it. That's where the HTML `<table>` tag comes in.
 
