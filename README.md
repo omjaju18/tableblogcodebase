@@ -251,7 +251,7 @@ Explanation: In the example, setting align="center" aligns the table to the cent
 
 Explanation: In the example, setting width="300" and height="200" defines the width and height of the table. You can use these attributes to control the size of the table on your webpage, ensuring it fits your layout requirements.
 
-**Please note that the CSS included in this example is intended solely for the purpose of differentiating the table's width and height. It is not required for the basic functionality of the code.**
+## **Please note that the CSS included in all example is intended solely for the purpose of differentiating the table's based on attributes . It is not required for the basic functionality of the code.So I have not included the css in code examples.**
 
 
 # V. Creating Complex Tables
@@ -296,7 +296,7 @@ Merging cells is a technique that allows you to combine adjacent cells into a si
 In this example, the rowspan attribute is used to merge cells vertically, creating a header cell that spans two rows.
 
 
-**Working with `<colgroup>` and `<col>**
+**Working with `<colgroup>` and `<col>`**
 
 The `<colgroup>` and `<col>` elements provide the capability to define settings and styles for entire columns in a table. `<colgroup>` serves as a container for grouping multiple `<col>` elements to apply collective column settings. Here's an example:
 
@@ -348,76 +348,81 @@ Class Schedule Table
 In this example, we'll create a class schedule table commonly used by educational institutions. This table will include not only the course schedule but also additional information such as room numbers and instructors.
 
               ```html
-              <!DOCTYPE html>
-<html>
-<head>
-   <style>
-      table {
-         width: 100%;
-         border-collapse: collapse;
-         border: 2px solid #333;
-      }
+      <!DOCTYPE html>
+         <html>
+            <head>
+               <style>
+                     table {
+                        width: 100%;
+                        border-collapse: collapse;
+                        border: 2px solid #333;
+                     }
 
-      th, td {
-         border: 1px solid #ccc;
-         padding: 10px;
-         text-align: center;
-      }
+                     th, td {
+                        border: 1px solid #ccc;
+                        padding: 10px;
+                        text-align: center;
+                     }
 
-      caption {
-         font-size: 18px;
-         font-weight: bold;
-         padding: 10px;
-         background-color: #333;
-         color: #fff;
-      }
-       </style>
-    </head>
-    <body>
-         <table>
-      <caption>Class Schedule</caption>
-      <tr>
-         <th>Time</th>
-         <th>Course</th>
-         <th>Instructor</th>
-         <th>Room</th>
-      </tr>
-      <tr>
-         <td>8:00 AM - 9:30 AM</td>
-         <td>Math 101</td>
-         <td>Prof. Smith</td>
-         <td>Room 201</td>
-      </tr>
-      <tr>
-         <td>9:45 AM - 11:15 AM</td>
-         <td>History 202</td>
-         <td>Prof. Johnson</td>
-         <td>Room 205</td>
-      </tr>
-      <tr>
-         <td>11:30 AM - 1:00 PM</td>
-         <td>Physics 301</td>
-         <td>Prof. Davis</td>
-         <td>Room 210</td>
-      </tr>
-   </table>
-</body>
-</html>
+                     caption {
+                        font-size: 18px;
+                        font-weight: bold;
+                        padding: 10px;
+                        background-color: #333;
+                        color: #fff;
+                  }
+                </style>
+             </head>
+             <body>
+                  <table>
+               <caption>Class Schedule</caption>
+               <tr>
+                  <th>Time</th>
+                  <th>Course</th>
+                  <th>Instructor</th>
+                  <th>Room</th>
+               </tr>
+               <tr>
+                  <td>8:00 AM - 9:30 AM</td>
+                  <td>Math 101</td>
+                  <td>Prof. Smith</td>
+                  <td>Room 201</td>
+               </tr>
+               <tr>
+                  <td>9:45 AM - 11:15 AM</td>
+                  <td>History 202</td>
+                  <td>Prof. Johnson</td>
+                  <td>Room 205</td>
+               </tr>
+               <tr>
+                  <td>11:30 AM - 1:00 PM</td>
+                  <td>Physics 301</td>
+                  <td>Prof. Davis</td>
+                  <td>Room 210</td>
+               </tr>
+            </table>
+          </body>
+      </html>
   
 
+<p align="center">
 
 
-Explanation:
 
-We've used the HTML <table> element to create the table structure.
-The <caption> element provides a title for the table, in this case, "Class Schedule."
-The table contains four columns: "Time," "Course," "Instructor," and "Room," with corresponding headers in the <th> elements.
-Each row <tr> represents a different class with details in <td> elements. The schedule includes the time, course name, instructor, and room number.
-The CSS code adds styling to the table, such as border and padding for better readability.
-This class schedule table example demonstrates how educational institutions can create organized schedules with additional information to keep students informed about their classes and locations.
+<img width="960" alt="class" src="https://github.com/omjaju18/tableblogcodebase/assets/113230517/17b1456e-28a9-409b-a7ac-8cbb2f293220">
 
 
-## X. Conclusion**
+</p>
+
+**Explanation:**
+
+- We've used the HTML `<table>` element to create the table structure.
+- The `<caption>` element provides a title for the table, in this case, "Class Schedule."
+- The table contains four columns: "Time," "Course," "Instructor," and "Room," with corresponding headers in the `<th>` elements.
+- Each row `<tr>` represents a different class with details in `<td>` elements. The schedule includes the time, course name, instructor, and room number.
+- The CSS code adds styling to the table, such as a border and padding for better readability.
+
+## VII. Conclusion
 
 In conclusion, the HTML `<table>` tag is a valuable tool for presenting data in a structured and organized manner on the web. Its primary purpose is to create grids of rows and columns, making information more accessible and comprehensible for website visitors.
 
@@ -435,5 +440,35 @@ In conclusion, the HTML `<table>` tag is a valuable tool for presenting data in 
 
 Web developers are encouraged to use HTML tables judiciously, considering the context and purpose of the data to be presented. Prioritizing accessibility and user experience ensures that tables serve their intended purpose effectively while providing a positive browsing experience for all visitors. Remember, tables are a powerful tool when used wisely and with consideration for accessibility and inclusivity.
 
+## IX. Additional Resources
 
+For further learning about HTML tables, here are some helpful resources and tools:
+
+1. [Mozilla Developer Network (MDN) HTML Tables Guide](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table): MDN offers a comprehensive guide to HTML tables, including detailed documentation and examples.
+
+2. [W3Schools HTML Tables Tutorial](https://www.w3schools.com/html/html_tables.asp): W3Schools provides an interactive tutorial with examples and exercises to enhance your understanding of HTML tables.
+
+3. [HTML Table Generator](https://www.tablesgenerator.com/html_tables): This online tool allows you to generate HTML tables visually, making it easier to create complex tables with ease.
+
+4. [A11y Project's Web Accessibility Guide](https://www.a11yproject.com/): Learn about web accessibility and how to make your tables more inclusive to all users.
+
+These resources will help you expand your knowledge of HTML tables, enhance your skills, and ensure your tables are well-structured and accessible. Happy learning!
+
+## X. Connect With Us!
+
+We hope you found this blog on HTML tables informative and helpful. If you enjoyed reading it, please consider supporting us by:
+
+- Like this blog. ❤️
+- Leave a comment with your thoughts, questions, or feedback. 💬
+- Connecting with me on social media for more web development insights and updates.
+
+You can find us on:
+
+- [LinkedIn](https://www.linkedin.com/in/omjaju/): Connect with me on LinkedIn for professional networking and discussions. 🤝
+- [Instagram](https://www.instagram.com/omjaju_18/): Follow me on Instagram for getting me know more. 📸
+- [GitHub](https://github.com/omjaju18): Explore my GitHub repositories for code samples and projects. 🚀
+- Email us at [omjaju03@gmail.com](mailto:omjaju03@gmail.com) for direct inquiries or collaborations. 📧
+- Visit our blog on [Hashnode](https://omjaju.hashnode.dev/) for more web development articles and insights. 📚
+
+Your support and engagement mean a lot to us. Thank you for being a part of our web development community! 🙌
 
